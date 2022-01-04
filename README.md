@@ -21,7 +21,6 @@
 
 * **Project Description**
 * **Codes and technical aspects**
-* **Deployment**
 
 # 1. Project introduction
 
@@ -139,17 +138,3 @@ Else the model needs to be re-trained ( by using another algorithm or by paramet
 Both model and the vectorizer needs to be saved for the deployment or future use.
 
 
-
-
-# 4.Deployment
-
-Hence , the model is created using machine learning . The model needs to be deployed for its practical use.
-
-We create a Web-App using the [Flask](https://flask.palletsprojects.com/en/2.0.x/). 
-
-![image](https://user-images.githubusercontent.com/85100877/143044908-a797ef8b-cfd6-41fe-a33f-390eb16c9111.png)
-
-Flask is a micro web framework written in Python. It is classified as a microframework because it does not require particular tools or libraries.
-
-
-The sample Deployment web page looks like :: 
