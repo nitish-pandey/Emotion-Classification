@@ -104,7 +104,7 @@ The code simply contains multiple parts :
 
 First of all ,we have to import all the required libraries like nltk, sklearn , etc.
 
-And then , we have to import our dataset which contains the messages with the label of spam or not spam.
+And then , we have to import our dataset which contains the messages with the label of emotion.
 
 We have our dataset in the **txt** format . The each line in txt file contains one message along with the corresponding emotion separated by " ; " .
 We import our data using **pandas** library and save as the dataframe. 
@@ -128,7 +128,7 @@ We create an object of Logistic Regression  algorithm and train it using the tra
 
 
 we predict the value for the testing messages (at this time only messages are passed not their labels) and compare with the original value/labels .
-By this the proformance of the model is analyzed using various metrices like accuracy , confusion matrix , classification report , etc.
+By this the performance of the model is analyzed using various metrices like accuracy , confusion matrix , classification report , etc.
 
 
 If the performance of the model is good . The model is ready to use and can be saved. 
