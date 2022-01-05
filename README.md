@@ -1,5 +1,5 @@
 
-# Emotion Analysis
+# Emotion Classification
 
 >Project status : Active and Incomplete
 
